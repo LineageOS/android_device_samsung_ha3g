@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_b2fbde46",
+        "filename": "sepolicy/file_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-04-26T22:59:20Z",
+      "side": 1,
+      "message": "the re-formatting makes it extremely tough to diff. if you absolutely must go to spaces, its probably better to do in a separate commit",
+      "range": {
+        "startLine": 1,
+        "startChar": 2,
+        "endLine": 1,
+        "endChar": 7
+      },
+      "revId": "0c59423aef491920dbc53c4e5d548fb008da46a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_f201563a",
+        "filename": "sepolicy/kernel.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-04-26T22:59:20Z",
+      "side": 1,
+      "message": "can be combined with line 8",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 32
+      },
+      "revId": "0c59423aef491920dbc53c4e5d548fb008da46a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_d2fe5a38",
+        "filename": "sepolicy/kernel.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-04-26T22:59:20Z",
+      "side": 1,
+      "message": "can be combined with line 9",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 40
+      },
+      "revId": "0c59423aef491920dbc53c4e5d548fb008da46a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_92f8e24a",
+        "filename": "sepolicy/sensorhubservice.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-04-26T22:59:20Z",
+      "side": 1,
+      "message": "This is pretty permissive. Giving sensorhubservice rw to fall sysfs files. Ideally you\u0027d identify which files it needs and label them.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 48
+      },
+      "revId": "0c59423aef491920dbc53c4e5d548fb008da46a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_329fee05",
+        "filename": "sepolicy/system_app.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-04-26T22:59:20Z",
+      "side": 1,
+      "message": "hmm, i\u0027ve never had to do a dontaudit. no other way around this?",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 9
+      },
+      "revId": "0c59423aef491920dbc53c4e5d548fb008da46a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
