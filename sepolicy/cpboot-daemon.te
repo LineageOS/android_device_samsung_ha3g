@@ -47,6 +47,8 @@ allow cpboot-daemon sysfs:file r_file_perms;
 # /proc/cmdline
 allow cpboot-daemon proc:file r_file_perms;
 
+allow cpboot-daemon self:capability sys_admin;
+
 # set properties on boot
 set_prop(cpboot-daemon, cpboot-daemon_prop)
 set_prop(cpboot-daemon, radio_prop)
