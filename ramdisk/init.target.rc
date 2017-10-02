@@ -31,6 +31,11 @@ on post-fs-data
     chown system system /sys/class/sec/led/led_br_lev
     chown system system /sys/class/sec/led/led_lowpower
 
+    write /sys/devices/virtual/misc/mdnie/hook_intercept 1
+    chown system system /sys/devices/virtual/misc/mdnie/r_adj
+    chown system system /sys/devices/virtual/misc/mdnie/g_adj
+    chown system system /sys/devices/virtual/misc/mdnie/b_adj
+
 # Sensorhub service
 service sensorhubservice /system/bin/sensorhubservice
     class main

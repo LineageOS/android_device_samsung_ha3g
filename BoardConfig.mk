@@ -36,6 +36,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 # Bootloader
 TARGET_OTA_ASSERT_DEVICE := ha3g
 
+# CMHW
+BOARD_HARDWARE_CLASS += device/samsung/ha3g/cmhw
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_deathly_ha3g_defconfig
 
